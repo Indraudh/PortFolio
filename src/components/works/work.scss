@@ -1,0 +1,154 @@
+@import "../../global.scss";
+.works{
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+    .arrow{
+        height:50px;
+        position: absolute;
+        cursor: pointer;
+        &.left{
+            left:100px;
+            transform: rotate(180deg);
+            @include mobile{
+                left: 7px;
+                height:30px;
+            }
+        }
+        &.right{
+            right:100px;
+            @include mobile{
+                right: 7px;
+                height:30px;
+            }
+        }
+    }
+    .slider{
+        height: 400px;
+        display: flex;
+        position: absolute;
+        left: 0;
+        transition: all 1.5s ease-out;
+        .container{
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .item{
+                width: 700px;
+                height: 100%;
+                background-color: aqua;
+                border-radius:20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                @include mobile {
+                    width: 80%;
+                    height: 250px;
+                    margin: 15px 0;
+                  }
+                .left{
+                    flex:4;
+                    @include mobile{
+                        flex:5;
+                    }
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .leftcontainer{
+                        width: 90%;
+                        height: 70%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        @include mobile{
+                            justify-content: center;
+                        }
+                        .imgcontainer{
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%;
+                            background-color: aliceblue;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            @include mobile {
+                                width: 20px;
+                                height: 20px;
+                              }
+                            img{
+                                width: 25px;
+                                @include mobile {
+                                    width: 15px;
+                                  }
+                            }
+                        }
+                        h2{
+                            font-size: 20px;
+                            @include mobile{
+                                font-size: 13px;
+                              }
+                        }
+                        p{
+                            font-size: 13px;
+                            @include mobile{
+                                display: none;
+                              }
+                        }
+                        span{
+                            font-size: 15px;
+                            font-weight: 600;
+                            text-decoration: underline;
+                            cursor: pointer;
+                            @include mobile{
+                                font-size: 12px;
+                            }
+                        }
+                        ul{
+                            list-style: square;
+                            position: relative;
+                            left: -15%;
+                            li{
+                                font-weight: 600;
+                                font-size: 13px;
+                                @include mobile{
+                                    font-size: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .right{
+                    overflow: hidden;
+                    flex:6;
+                    @include mobile{
+                        flex: 6;
+                    }
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    img{
+                        width: 340px;
+                        height:440px;
+                        transform:rotate(-12deg);
+                        transform-origin: left;
+                        position: relative;
+                        top:11%;
+                        left: 7%;
+                        @include mobile{
+                            height: 100%;
+                            transform: rotate(0deg);
+                            transform-origin: 0%;
+                            top: 0%;
+                            left: 0%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
