@@ -6,7 +6,7 @@ export default function Work() {
     {
       title:"Model Photoshoot",
       paragraph:"Are you ready to step into the spotlight and capture the essence of your unique beauty? Elevate your confidence, embrace your style in a glamorous model photoshoot experience like no other!",
-      img:"assets/kk.png",
+      img:"assets/kk.webp",
       li1: "Professional Photoshoot",
       li2: "Both Outdoor and Indoor",
       li3: "Wardrobe Styling"
@@ -15,7 +15,7 @@ export default function Work() {
     {
       title:"Wedding Photography",
       paragraph:"Say 'I do' to everlasting memories with our expert photography services. Our dedicated team is committed to immortalizing the love and magic of your special day. Trust us to turn your wedding moments into timeless treasures",
-      img:"assets/wedding.png",
+      img:"assets/wedding.webp",
       li1: "Pre-Wedding Consultation",
       li2: "Full-Day Coverage",
       li3: "Professional Editing"
@@ -23,7 +23,7 @@ export default function Work() {
     {
       title:"Product Photography",
       paragraph:"Are your products ready for their close-up? Transform your brand and captivate your audience with high-quality, professional product photography that showcases your items in the best light possible.",
-      img:"assets/Product.png",
+      img:"assets/Product.webp",
       li1: "Stunning Visuals",
       li2: "Versatility",
       li3: "Customized Setups"
@@ -41,7 +41,7 @@ export default function Work() {
             <div className="left">
               <div className="leftcontainer">
                 <div className="imgcontainer">
-                  <img src="assets/cam.jpg" alt="" />
+                  <img src="assets/cam.webp" alt="" />
                 </div>
                 <h2>{it.title}</h2>
                 <p>{it.paragraph}</p>
@@ -61,8 +61,8 @@ export default function Work() {
           </div>
         </div>))}
       </div>
-      <img src="assets/arrow.png" className="left arrow" alt="" onClick={()=>handleclick("left")}/>
-      <img src="assets/arrow.png" className="right arrow" alt="" onClick={()=>handleclick("right")}/>
+      <img src="assets/arrow.webp" className="left arrow" alt="" onClick={()=>handleclick("left")}/>
+      <img src="assets/arrow.webp" className="right arrow" alt="" onClick={()=>handleclick("right")}/>
     </div>
   )
 }

@@ -18,7 +18,7 @@ export default function Contact() {
   return (
     <div className='contact' id='contact'>
       <div className="left">
-      <img src="assets/contact.png" alt=""  className="c"/>
+      <img src="assets/contact.webp" alt=""  className="c"/>
       </div>
       <div className="right">
       <h2>CONTACT</h2>

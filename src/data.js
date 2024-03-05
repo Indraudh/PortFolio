@@ -3,37 +3,37 @@ export const eventPortfolio = [
       id: 1,
       title: "Srijan",
       img:
-        "assets/7.jpg",
+        "assets/7.webp",
     },
     {
       id: 2,
       title: "Concetto",
       img:
-        "assets/8.jpg",
+        "assets/8.webp",
     },
     {
       id: 3,
       title: "Srijan",
       img:
-        "assets/12.jpg",
+        "assets/12.webp",
     },
     {
       id: 4,
       title: "Khanan",
       img:
-        "assets/15.jpg",
+        "assets/15.webp",
     },
     {
       id: 5,
       title: "Basant",
       img:
-        "assets/4.jpg",
+        "assets/4.webp",
     },
     {
       id: 6,
       title: "Khanan",
       img:
-        "assets/6.jpg",
+        "assets/6.webp",
     },
   ];
   
@@ -41,32 +41,32 @@ export const eventPortfolio = [
     {
       id: 1,
       title: "Varanasi",
-      img: "assets/DSC_0107-2.jpg",
+      img: "assets/DSC_0107-2.webp",
     },
     {
       id: 2,
       title: "Varanasi",
-      img: "assets/DSC_0170.png",
+      img: "assets/DSC_0170.webp",
     },
     {
       id: 3,
       title: "Varanasi",
-      img: "assets/DSC_0012.jpg",
+      img: "assets/DSC_0012.webp",
     },
     {
       id: 4,
       title: "Masan",
-      img: "assets/DSC_0539.jpg",
+      img: "assets/DSC_0539.webp",
     },
     {
       id: 5,
       title: "Local",
-      img: "assets/DSC_0939.jpg",
+      img: "assets/DSC_0939.webp",
     },
     {
       id: 6,
       title: "Local",
-      img: "assets/perspective.jpg",
+      img: "assets/perspective.webp",
     },
   ];
   
@@ -75,37 +75,37 @@ export const eventPortfolio = [
       id: 1,
       title: "Kedarnath",
       img:
-        "assets/DSC_0177.jpg",
+        "assets/DSC_0177.webp",
     },
     {
       id: 2,
       title: "Mussorie",
       img:
-        "assets/DSC_0677.jpg",
+        "assets/DSC_0677.webp",
     },
     {
       id: 3,
       title: "Mussorie",
       img:
-        "assets/DSC_0695.jpg",
+        "assets/DSC_0695.webp",
     },
     {
       id: 4,
       title: "Gangotri",
       img:
-        "assets/DSC_0043.jpg",
+        "assets/DSC_0043.webp",
     },
     {
       id: 5,
       title: "Haridwar",
       img:
-        "assets/DSC_0676.jpg",
+        "assets/DSC_0676.webp",
     },
     {
       id: 6,
       title: "SonePrayag",
       img:
-        "assets/DSC_0130.jpg",
+        "assets/DSC_0130.webp",
     },
   ];
   
@@ -114,37 +114,37 @@ export const eventPortfolio = [
       id: 1,
       title: "First",
       img:
-        "assets/p1.jpeg",
+        "assets/p1.webp",
     },
     {
       id: 2,
       title: "Second",
       img:
-        "assets/p2.jpeg",
+        "assets/p2.webp",
     },
     {
       id: 3,
       title: "Third",
       img:
-        "assets/p3.jpeg",
+        "assets/p3.webp",
     },
     {
       id: 4,
       title: "Fourth",
       img:
-        "assets/p4.jpeg",
+        "assets/p4.webp",
     },
     {
       id: 5,
       title: "Fifth",
       img:
-        "assets/p5.jpeg",
+        "assets/p5.webp",
     },
     {
       id: 6,
       title: "Sixth",
       img:
-        "assets/p6.jpeg",
+        "assets/p6.webp",
     },
   ];
   
@@ -153,37 +153,37 @@ export const eventPortfolio = [
       id: 1,
       title: "Buffalo",
       img:
-        "assets/buffalo.jpg",
+        "assets/buffalo.webp",
     },
     {
       id: 2,
       title: "Bird",
       img:
-        "assets/DSC_0160.jpg",
+        "assets/DSC_0160.webp",
     },
     {
       id: 3,
       title: "Deer",
       img:
-        "assets/Indraudh Sarkar_RAW-2.jpg",
+        "assets/Indraudh Sarkar_RAW-2.webp",
     },
     {
       id: 4,
       title: "Peacock",
       img:
-        "assets/peacock 4.png",
+        "assets/peacock 4.webp",
     },
     {
       id: 5,
       title: "Tiger",
       img:
-        "assets/tiger of shadows.jpg",
+        "assets/tiger of shadows.webp",
     },
     {
       id: 6,
       title: "Tiger",
       img:
-        "assets/tiger reflection 2.png",
+        "assets/tiger reflection 2.webp",
     },
   ];
   
